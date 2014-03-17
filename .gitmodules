@@ -1,0 +1,111 @@
+[submodule "vendor/doctrine-common"]
+	path = vendor/doctrine-common
+	url = https://github.com/doctrine/common.git
+[submodule "vendor/doctrine-annotations"]
+	path = vendor/doctrine-annotations
+	url = https://github.com/doctrine/annotations.git
+[submodule "vendor/assetic"]
+	path = vendor/assetic
+	url = https://github.com/kriswallsmith/assetic.git
+[submodule "vendor/symfony"]
+	path = vendor/symfony
+	url = https://github.com/symfony/symfony.git
+[submodule "vendor/bundles/Symfony/Bundle/MonologBundle"]
+	path = vendor/bundles/Symfony/Bundle/MonologBundle
+	url = https://github.com/symfony/MonologBundle.git
+[submodule "vendor/bundles/Symfony/Bundle/DoctrineBundle"]
+	path = vendor/bundles/Symfony/Bundle/DoctrineBundle
+	url = https://github.com/doctrine/DoctrineBundle.git
+[submodule "vendor/bundles/Doctrine/Bundle/DoctrineBundle"]
+	path = vendor/bundles/Doctrine/Bundle/DoctrineBundle
+	url = https://github.com/doctrine/DoctrineBundle.git
+[submodule "vendor/bundles/Symfony/Bundle/AsseticBundle"]
+	path = vendor/bundles/Symfony/Bundle/AsseticBundle
+	url = https://github.com/symfony/AsseticBundle.git
+[submodule "vendor/bundles/Sensio/Bundle/FrameworkExtraBundle"]
+	path = vendor/bundles/Sensio/Bundle/FrameworkExtraBundle
+	url = https://github.com/sensio/SensioFrameworkExtraBundle.git
+[submodule "vendor/bundles/JMS/AopBundle"]
+	path = vendor/bundles/JMS/AopBundle
+	url = https://github.com/schmittjoh/JMSAopBundle.git
+[submodule "vendor/bundles/JMS/DiExtraBundle"]
+	path = vendor/bundles/JMS/DiExtraBundle
+	url = https://github.com/schmittjoh/JMSDiExtraBundle.git
+[submodule "vendor/bundles/JMS/SecurityExtraBundle"]
+	path = vendor/bundles/JMS/SecurityExtraBundle
+	url = https://github.com/schmittjoh/JMSSecurityExtraBundle.git
+[submodule "vendor/bundles/Symfony/Bundle/WebProfilerBundle"]
+	path = vendor/bundles/Symfony/Bundle/WebProfilerBundle
+	url = https://github.com/symfony/WebProfilerBundle.git
+[submodule "vendor/bundles/Symfony/Bundle/SwiftmailerBundle"]
+	path = vendor/bundles/Symfony/Bundle/SwiftmailerBundle
+	url = https://github.com/symfony/SwiftmailerBundle.git
+[submodule "vendor/twig-extensions"]
+	path = vendor/twig-extensions
+	url = https://github.com/fabpot/Twig-extensions.git
+[submodule "vendor/twig"]
+	path = vendor/twig
+	url = https://github.com/fabpot/Twig.git
+[submodule "vendor/monolog"]
+	path = vendor/monolog
+	url = https://github.com/Seldaek/monolog.git
+[submodule "vendor/psr-log"]
+	path = vendor/psr-log
+	url = https://github.com/php-fig/log.git
+[submodule "vendor/doctrine"]
+	path = vendor/doctrine
+	url = git://github.com/doctrine/doctrine2.git
+[submodule "vendor/cg-library"]
+	path = vendor/cg-library
+	url = https://github.com/schmittjoh/cg-library.git
+[submodule "vendor/doctrine-dbal"]
+	path = vendor/doctrine-dbal
+	url = https://github.com/doctrine/dbal.git
+[submodule "vendor/doctrine-lexer"]
+	path = vendor/doctrine-lexer
+	url = https://github.com/doctrine/lexer.git
+[submodule "vendor/metadata"]
+	path = vendor/metadata
+	url = https://github.com/schmittjoh/metadata.git
+[submodule "vendor/doctrine-cache"]
+	path = vendor/doctrine-cache
+	url = https://github.com/doctrine/cache.git
+[submodule "vendor/doctrine-collections"]
+	path = vendor/doctrine-collections
+	url = https://github.com/doctrine/collections.git
+[submodule "vendor/bundles/Sensio/Bundle/SensioDistributionBundle"]
+	path = vendor/bundles/Sensio/Bundle/SensioDistributionBundle
+	url = https://github.com/sensio/SensioDistributionBundle.git
+[submodule "vendor/bundles/Sensio/Bundle/SensioGeneratorBundle"]
+	path = vendor/bundles/Sensio/Bundle/SensioGeneratorBundle
+	url = https://github.com/sensio/SensioGeneratorBundle.git
+[submodule "vendor/bundles/Sensio/Bundle/DistributionBundle"]
+	path = vendor/bundles/Sensio/Bundle/DistributionBundle
+	url = https://github.com/sensio/SensioDistributionBundle.git
+[submodule "vendor/bundles/Sensio/Bundle/GeneratorBundle"]
+	path = vendor/bundles/Sensio/Bundle/GeneratorBundle
+	url = https://github.com/sensio/SensioGeneratorBundle.git
+[submodule "vendor/bundles/Doctrine/Bundle/MigrationsBundle"]
+	path = vendor/bundles/Doctrine/Bundle/MigrationsBundle
+	url = https://github.com/doctrine/DoctrineMigrationsBundle.git
+[submodule "vendor/doctrine-migrations"]
+	path = vendor/doctrine-migrations
+	url = https://github.com/doctrine/migrations.git
+[submodule "vendor/bundles/Doctrine/Bundle/MongoDBBundle"]
+	path = vendor/bundles/Doctrine/Bundle/MongoDBBundle
+	url = https://github.com/doctrine/DoctrineMongoDBBundle
+[submodule "vendor/doctrine-mongodb-odm"]
+	path = vendor/doctrine-mongodb-odm
+	url = https://github.com/doctrine/mongodb-odm.git
+[submodule "vendor/doctrine-mongodb"]
+	path = vendor/doctrine-mongodb
+	url = https://github.com/doctrine/mongodb.git
+[submodule "vendor/bundles/FOS/UserBundle"]
+	path = vendor/bundles/FOS/UserBundle
+	url = https://github.com/FriendsOfSymfony/FOSUserBundle.git
+[submodule "vendor/doctrine-softdelete"]
+	path = vendor/doctrine-softdelete
+	url = https://github.com/doctrine/mongodb-odm-softdelete.git
+[submodule "web/js/vendors/underscore"]
+	path = web/js/vendors/underscore
+	url = https://github.com/documentcloud/underscore.git

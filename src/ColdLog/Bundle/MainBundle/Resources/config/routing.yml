@@ -1,0 +1,13 @@
+freezer:
+    resource: "@MainBundle/Resources/config/routing_freezer.yml"
+
+division:
+    resource: "@MainBundle/Resources/config/routing_division.yml"
+
+box:
+    resource: "@MainBundle/Resources/config/routing_box.yml"
+
+homepage:
+    pattern:      /
+    defaults:     { _controller: MainBundle:Home\Home:home }
+    requirements: { _method: get }

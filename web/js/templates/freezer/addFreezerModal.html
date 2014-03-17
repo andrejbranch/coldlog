@@ -1,0 +1,35 @@
+<div class="overlay">
+</div>
+<div class="modal dark hide">
+    <form class="dark-form new-freezer-form">
+        <div class="title">
+            New Freezer
+        </div>
+        <div class="content">
+            <div class="group">
+                <label for="freezer[name]">Name</label>
+                <input class="large" name="freezer[name]" type="text"></input>
+                <div data-error="freezer[name]" class="error" style="display: none"></div>
+            </div>
+            <div class="group">
+                <label for="freezer[description]">Description</label>
+                <input class="xlarge" name="freezer[description]" type="text"></input>
+                <div data-error="freezer[description]" class="error" style="display: none"></div>
+            </div>
+            <div class="group">
+                <label for="division[name]">Division Name</label>
+                <input class="medium" name="division[name]" type="text"></input>
+                <div data-error="division[name]" class="error" style="display: none"></div>
+            </div>
+            <div class="group">
+                <label for="division[quantity]">Division Quantity</label>
+                <input class="small" name="division[quantity]" type="text"></input>
+                <div data-error="division[quantity]" class="error" style="display: none"></div>
+            </div>
+        </div>
+        <div class="actions">
+            <button class="btn" type="submit">Submit</input>
+            <button class="btn btn-danger" onclick="location.href='/#'; return false;">Cancel</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+<div class="overlay">
+</div>
+<div class="modal dark hide">
+    <form class="dark-form new-box-form">
+        <div class="title">
+            New Box 
+        </div>
+        <div class="content">
+            <div class="group">
+                <label for="box[name]">Name</label>
+                <input class="large" name="box[name]" type="text"></input>
+                <div data-error="box[name]" class="error" style="display: none"></div>
+            </div>
+            <div class="group">
+                <label for="box[description]">Description</label>
+                <input class="xlarge" name="box[description]" type="text"></input>
+                <div data-error="box[description]" class="error" style="display: none"></div>
+            </div>
+            <input type="hidden" name="box[divisionId]" value="<%= divisionId %>"></input>
+        </div>
+        <div class="actions">
+            <button class="btn" type="submit">Submit</input>
+            <button class="btn btn-danger" onclick="location.href='/#'; return false;">Cancel</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,9 @@
+<% _.each(boxes, function(box) { %>
+    <li class="box" data-id="<%= htmlEncode(box.get('id')) %>">
+        <a>
+            <a class="no-expand"></a>
+            <i class="halflings-icon white inbox"></i>
+            <%= htmlEncode(box.get('name')) %>
+        </a>
+    </li>
+<% }); %>

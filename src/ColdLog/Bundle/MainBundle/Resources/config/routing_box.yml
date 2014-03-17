@@ -1,0 +1,9 @@
+division_boxes:
+    pattern:      /api/division/{divisionId}/boxes
+    defaults:     { _controller: MainBundle:Box\Box:getDivisionBoxes }
+    requirements: { _method: GET, _format: json }
+
+box_create:
+    pattern:      /api/box
+    defaults:     { _controller: MainBundle:Box\Box:createBox }
+    requirements: { _method: POST, _format: json }

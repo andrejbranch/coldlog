@@ -1,0 +1,35 @@
+freezer_boxes:
+    pattern:      /api/freezer/boxes/{freezerId}
+    defaults:     { _controller: MainBundle:Freezer\Freezer:getFreezerBoxes }
+    requirements: { _method: get, _format: json }
+
+freezer_divisions:
+    pattern:      /api/freezer/divisions/{freezerId}
+    defaults:     { _controller: MainBundle:Freezer\Freezer:getFreezerDivisions }
+    requirements: { _method: get, _format: json }
+
+freezers:
+    pattern:      /api/freezers
+    defaults:     { _controller: MainBundle:Freezer\Freezer:getFreezers }
+    requirements: { _method: get, _format: json }
+
+freezer_delete:
+    pattern:      /api/freezer/{id}
+    defaults:     { _controller: MainBundle:Freezer\Freezer:deleteFreezer }
+    requirements: { _method: DELETE, _format: json }
+
+freezer_update:
+    pattern:      /api/freezer/{id}
+    defaults:     { _controller: MainBundle:Freezer\Freezer:updateFreezer }
+    requirements: { _method: PUT, _format: json }
+
+freezer:
+    pattern:      /api/freezer/{id}
+    defaults:     { _controller: MainBundle:Freezer\Freezer:getFreezer }
+    requirements: { _method: get, _format: json }
+
+freezer_create:
+    pattern:      /api/freezer
+    defaults:     { _controller: MainBundle:Freezer\Freezer:createFreezer }
+    requirements: { _method: POST, _format: json }
+

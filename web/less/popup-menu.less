@@ -1,0 +1,38 @@
+.noHighlight {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup-menu {
+    .noHighlight; 
+    position: absolute;  
+    z-index: 100000;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 8px 8px 8px rgba(85, 84, 84, 0.67);
+
+    ul {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    li {
+        line-height: 20px;
+        cursor: pointer; 
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    li:hover {
+        background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.3,rgb(159, 192, 207)),color-stop(0.83,rgb(174, 213, 228)));
+    }
+}

@@ -1,0 +1,9 @@
+divisions_create:
+    pattern:      /api/divisions
+    defaults:     { _controller: MainBundle:Division\Division:createDivisions }
+    requirements: { _method: POST, _format: json }
+
+divisions:
+    pattern:      /api/divisions/{divisionId}
+    defaults:     { _controller: MainBundle:Division\Division:getDivisions }
+    requirements: { _method: get, _format: json }

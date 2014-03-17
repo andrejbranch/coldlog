@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="serializer.factory" class="ColdLog\Bundle\MainBundle\Serializer\ObjectSerializerFactory">
+            <argument type="collection">
+                <argument type="service" id="serializer.freezer" />
+                <argument type="service" id="serializer.division" />
+                <argument type="service" id="serializer.box" />
+            </argument>
+        </service>
+
+        <service id="serializer.freezer" class="ColdLog\Bundle\MainBundle\Serializer\Freezer\FreezerSerializer">
+            <argument type="service" id="serializer.division" />
+        </service>
+
+        <service id="serializer.division" class="ColdLog\Bundle\MainBundle\Serializer\Division\DivisionSerializer" />
+
+        <service id="serializer.box" class="ColdLog\Bundle\MainBundle\Serializer\Box\BoxSerializer" />
+    </services>
+</container>

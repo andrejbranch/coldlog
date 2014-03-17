@@ -1,0 +1,58 @@
+.dark-form input[type="text"] {
+  border-radius: 4px;
+  padding: 5px;
+  border: 2px solid #5f6061;
+  font-size: 15px;
+  color: #524d4d;
+}
+.dark-form input[type="text"]:focus {
+  border: 2px solid #4fcabc;
+}
+.dark-form input[type="text"].hasError {
+  border: 2px solid red;
+}
+.dark-form label {
+  float: left;
+  padding: 6px;
+  text-align: right;
+}
+.dark-form .title {
+  padding: 10px 10px 10px 10px;
+  border-bottom: 1px solid #808080;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.dark-form .group {
+  padding: 10px;
+}
+.dark-form .actions {
+  margin-top: 15px;
+  padding: 10px 10px 10px 10px;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#adadad), to(#5f5f5f));
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 1px solid #e0e0e0;
+}
+.dark-form .error {
+  position: absolute;
+  background: #db3333;
+  line-height: 25px;
+  padding: 2px;
+  min-width: 200px;
+  padding-left: 10;
+  opacity: 0.9;
+  border-top-right-radius: 3px;
+}
+.dark-form .error:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 10px solid #EEE;
+  border-width: 14px 15px 15px 0;
+  border-color: transparent #db3333 transparent transparent;
+  position: absolute;
+  left: -15px;
+  top: 0;
+}

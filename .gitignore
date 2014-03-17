@@ -1,0 +1,8 @@
+/app/bootstrap*
+.htaccess
+/app/config/local*.yml
+app/config/config_local.yml
+.DS_Store
+._.DS_Store
+/app/cache/*
+/app/logs/*

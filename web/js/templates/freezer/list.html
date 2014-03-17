@@ -1,0 +1,14 @@
+<% _.each(freezers, function(freezer) { %>
+    <li class="freezer" data-id="<%= htmlEncode(freezer.get('id')) %>">
+        <a>
+            <% if (freezer.get('divisions')) { %>
+                <a class="side-nav-expand">+</a>
+            <% } else { %>
+                <a class="no-expand"></a>
+            <% } %>
+            <i class="halflings-icon white book"></i>
+            <%= htmlEncode(freezer.get('name')) %>
+        </a>
+    </li>
+    <div class="section children" data-parent="<%= htmlEncode(freezer.get('id')) %>"></div>
+<% }); %>

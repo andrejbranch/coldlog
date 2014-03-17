@@ -1,0 +1,14 @@
+<% _.each(divisions, function(division) { %>
+    <li class="division" data-parent="<%= htmlEncode(division.get('parentId')) %>" data-id="<%= htmlEncode(division.get('id')) %>">
+        <a>
+            <% if (division.get('hasBoxes')) { %>
+                <a class="side-nav-expand">+</a>
+            <% } else { %>
+                <a class="no-expand"></a>
+            <% } %>
+            <i class="halflings-icon white th-large"></i>
+            <%= htmlEncode(division.get('name')) %>
+        </a>
+    </li>
+    <div class="section children" data-parent="<%= htmlEncode(division.get('id')) %>"></div>
+<% }); %>
